@@ -1,0 +1,27 @@
+.review-section {
+    float: right;
+}
+
+.review-card {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 44%;
+        max-width: none;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-md-6 {
+    width: 56%;
+}
+
+.rental-owner>img {
+    width: 20%;
+}
